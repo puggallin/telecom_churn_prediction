@@ -1,0 +1,22 @@
+# Данные не храним в репозитории (см. README)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost
+catboost_info/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
