@@ -83,7 +83,7 @@ ROC-AUC и PR-AUC на 5-фолдовой CV (среднее ± std) и на о�
 ## Как запустить
 
 ```bash
-git clone <url-репозитория> && cd churn-prediction
+git clone https://github.com/puggallin/telecom_churn_prediction.git && cd telecom_churn_prediction
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
